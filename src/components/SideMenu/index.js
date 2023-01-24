@@ -24,6 +24,10 @@ const SideMenu = () => {
         navigate(menuItem.key);
     };
 
+    /* function onMenuItemClick(menuItem) {
+        navigate(menuItem.key);
+    } */
+
     return (
         <Menu items={menuItems} onClick={onMenuItemClick} />
     );
